@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@drawable/verde_fuerte</item>
+
+    </style>
+
+    <style name="fondo" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:background">@drawable/verde_fuerte</item>
+        <item name="android:color">#FFFFFF</item>
+    </style>
+
+    <style name="titulo">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@drawable/white</item>
+
+    </style>
+
+    <style name="slogan">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/white</item>
+
+    </style>
+    <!-- EL SIGUIENTE ESL ELE STILO APLICADO A TODOS LOS ELEMENTOS DE CADA LIST- si es que vas a usar-  style="@style/fondo" dentro de el
+        lienar layout del xml layot_elementos, si no usa mejor en drawble el de shape que se llama fondito, es de hecho mas versatil que este -->
+    <style name="fondo2" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:background">@drawable/verde_fuerte</item>
+        <item name="android:color">#FFFFFF</item>
+
+    </style>
+
+
+    <drawable name="red">#ff00ff</drawable>
+    <drawable name="green">#00BE14</drawable>
+    <drawable name="verde_fuerte">#0B741E</drawable>
+    <drawable name="greentransparente">#00BE14</drawable>
+
+    <drawable name="white">#ffffffff</drawable>
+    <drawable name="blue">#00ffff</drawable>
+
+    <drawable name="oscuro">#5A5A43</drawable>
+    <drawable name="gris">#905A5A43</drawable>
+    <drawable name="negro">#000000</drawable>
+
+
+    <drawable name="blanco_transparente">#50ffffff</drawable>
+
+
+</resources>

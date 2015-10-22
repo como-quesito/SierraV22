@@ -1,0 +1,94 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ActividadInicio"
+        android:clickable="true"
+        android:gravity="top"
+        android:weightSum="1"
+        android:background="@drawable/fondosierra1">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sierra \n de \n Guadalupe"
+                android:id="@+id/textoTitulo"
+                style="@style/titulo"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="34dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ven y conoce el tesoro ambiental \n que posee este hermoso parque"
+                style="@style/slogan"
+                android:gravity="center"
+                android:id="@+id/textoSlogan"
+              />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="18.2 °C"
+                android:gravity="center"
+                android:textSize="33dp"
+                android:textColor="@drawable/white"
+
+                android:id="@+id/textoUV"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blanco"
+                android:id="@+id/icono_alerta"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="18.2 °C"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:textColor="@drawable/white"
+
+                android:id="@+id/textoTemper"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

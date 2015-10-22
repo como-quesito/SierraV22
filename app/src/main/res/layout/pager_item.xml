@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/negro">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imagenFlora"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/cactus" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_weight="0.5"
+        android:layout_height="0dp">
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:layout_gravity="bottom"
+            android:textColor="@drawable/white"
+            android:text="Los cactus son bien bonitos, neta que si, ueno a mi me gustan mucho, ademas son bien mexicanos como el pozole. \n.
+            Los cactus tambien pican porque tienen mucvhas espinas muy puntiagudas. \nUna vez me cai y me encaje una espina en la
+            sierra de guadalupe y me dolio mucho, proque aparte cuando te las quieres sacar tienen una especie de sierrita que te corta mucho
+            y duele muy cabrón"
+            android:id="@+id/textoFlora" />
+       </FrameLayout>
+    </ScrollView>
+
+
+</LinearLayout>
